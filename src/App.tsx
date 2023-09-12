@@ -18,6 +18,8 @@ export function App() {
             Desenvolvido com 💚 por{' '}
             <a 
               href="https://ricardobizerra.vercel.app"
+              target='_blank'
+              rel='noreferrer noopener'
               className="text-zinc-300 hover:underline"
             >Ricardo Bizerra</a>{' '}
             no NLW da Rocketseat
@@ -25,10 +27,12 @@ export function App() {
 
           <Separator orientation="vertical" className="h-6" />
 
-          <Button variant="outline">
-            <Github className="w-4 h-4 mr-2" />
-            GitHub
-          </Button>
+          <a href="https://github.com/ricardobizerra" target='_blank' rel='noreferrer noopener'>
+            <Button variant="outline">
+              <Github className="w-4 h-4 mr-2" />
+              GitHub
+            </Button>
+          </a>
         </div>
       </div>
 
